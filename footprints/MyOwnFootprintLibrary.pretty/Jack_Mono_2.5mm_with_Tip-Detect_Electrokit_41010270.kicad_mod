@@ -1,0 +1,209 @@
+(footprint "Jack_Mono_2.5mm_with_Tip-Detect_Electrokit_41010270"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.54 -6.096 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7481a662-7c93-4e3c-94ad-c75bd2f186ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Jack_Mono_2.5mm_with_Tip-Detect_Electrokit_41010270"
+		(at 4.445 1.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4f75114b-9bf1-4a37-ae6a-c793ed16c8bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 4.445 0.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4556077d-1ca5-466f-ad56-4c2f1d96fb77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 4.445 0.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "11f295d9-0a2f-4419-a185-4757f8b562b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 4.445 0.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20a0ccf7-585e-440b-828e-f4848c56383a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.318 -5.334)
+		(end -4.318 0.254)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6e2c4ad6-3755-4528-b123-5f388222495a")
+	)
+	(fp_line
+		(start 7.3025 -5.334)
+		(end -4.318 -5.334)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "851ff1d8-c23b-4395-a3ed-e857d97e5041")
+	)
+	(fp_line
+		(start 7.366 0.254)
+		(end -4.318 0.254)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "55069f24-5861-452c-8bc4-2d3cd3847c34")
+	)
+	(fp_line
+		(start 8.128 -7.112)
+		(end 8.128 2.032)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6252423b-0d12-4601-85c0-11f30641abe4")
+	)
+	(fp_poly
+		(pts
+			(xy -4.064 -5.08) (xy 8.128 -5.08) (xy 8.128 -3.937) (xy 11.176 -3.937) (xy 11.176 -1.143) (xy 8.128 -1.143)
+			(xy 8.128 0) (xy -4.064 0)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "79129b6f-dd7c-493b-8417-2f1b4aef24bc")
+	)
+	(fp_poly
+		(pts
+			(xy 13.335 -2.794) (xy 12.319 -2.794) (xy 12.573 -3.048) (xy 12.319 -3.302) (xy 11.557 -2.54) (xy 12.319 -1.778)
+			(xy 12.573 -2.032) (xy 12.319 -2.286) (xy 13.335 -2.286)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "Dwgs.User")
+		(uuid "b114144b-e2b0-4f4d-93a3-0021121ab33e")
+	)
+	(fp_poly
+		(pts
+			(xy -4.572 -5.588) (xy -1.016 -5.588) (xy 8.382 -5.588) (xy 8.382 -4.318) (xy 11.557 -4.318) (xy 11.557 -0.762)
+			(xy 8.382 -0.762) (xy 8.382 0.508) (xy -0.254 0.508) (xy -4.572 0.508)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8e5c0ca6-f88d-4b22-8e7e-d11a74d878d8")
+	)
+	(fp_text user "Board Edge"
+		(at 8.255 -5.969 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "3c1bbd20-f594-4872-ae78-adaca7d10aac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.445 3.135 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0723146d-c525-49c5-9ab6-4e44342464a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "S" thru_hole oval
+		(at 6.096 -2.54)
+		(size 2.5 4)
+		(drill oval 1 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d68c48df-68d7-49d4-be42-81e6c0cdc32e")
+	)
+	(pad "T" thru_hole oval
+		(at 2.032 -2.54)
+		(size 2.5 4)
+		(drill oval 1 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5fe35221-2980-43c1-a8dd-d57cc12076f1")
+	)
+	(pad "TN" thru_hole oval
+		(at -2.032 -2.54)
+		(size 2.5 4)
+		(drill oval 1 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0659e691-1483-4711-8fa4-1f6d5758baf4")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/MyOwnFootprintLibrary.3dshapes/AudioJack_Mono_2.5mm_with_Tip-Detect.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
